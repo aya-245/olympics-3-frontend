@@ -40,7 +40,7 @@ function CreateZaid() {
             type="text"
             id="zaidImage"
             onChange={handleChange}
-            value={formData.zaidImage}
+            value={formData.ZaidImage}
             />
             <button>Create Zaid</button>
           </form>
