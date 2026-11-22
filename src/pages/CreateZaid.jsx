@@ -32,7 +32,7 @@ function CreateZaid() {
             type="text"
             id="name"
             onChange={handleChange}
-            value={formData.name}
+            value={formData.Name}
             />
             <label htmlFor="zaidImage">Zaid Image: </label>
             <input 
