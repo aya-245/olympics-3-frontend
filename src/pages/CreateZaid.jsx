@@ -4,8 +4,8 @@ import { useNavigate } from 'react-router';
 
 function CreateZaid() {
     const [formData, setFormData] = useState({
-    Name:"",
-    ZaidImage: "",
+    name:"",
+    zaidImage: "",
   });
 
   
@@ -32,7 +32,7 @@ function CreateZaid() {
             type="text"
             id="name"
             onChange={handleChange}
-            value={formData.Name}
+            value={formData.name}
             />
             <label htmlFor="zaidImage">Zaid Image: </label>
             <input 
@@ -40,7 +40,7 @@ function CreateZaid() {
             type="text"
             id="zaidImage"
             onChange={handleChange}
-            value={formData.ZaidImage}
+            value={formData.zaidImage}
             />
             <button>Create Zaid</button>
           </form>
