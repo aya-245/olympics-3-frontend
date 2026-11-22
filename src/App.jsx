@@ -2,7 +2,7 @@ import { Route, Routes } from "react-router";
 import Navbar from "./components/Navbar";
 import Homepage from "./pages/Homepage";
 import ZaidDetails from "./pages/ZaidDetails";
-import createZaid from "./pages/CreateZaid";
+import CreateZaid from "./pages/CreateZaid";
 import UpdateZaid from "./pages/UpdateZaid";
 import AllZaids from "./pages/AllZaids";
 
