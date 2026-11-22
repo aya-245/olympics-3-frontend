@@ -3,7 +3,7 @@ import { useState, useEffect } from 'react'
 import { useNavigate, useParams, Link } from 'react-router'
 
 function ZaidDetails() {
-  const { zaid, setZaid } = useState(null)
+  const [ zaid, setZaid ] = useState(null)
 
   const { id } = useParams()
   const navigate = useNavigate()
